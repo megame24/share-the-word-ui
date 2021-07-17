@@ -7,9 +7,8 @@
       "DOM",
       "ESNext"
     ] ,
-    "jsx": "react-jsx" ,
+    "jsx": "react" ,
     "noEmit": true ,
-    "isolatedModules": true ,
     "esModuleInterop": true ,
     "strict": true ,
     "skipLibCheck": true ,
