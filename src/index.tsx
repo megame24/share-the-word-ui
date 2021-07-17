@@ -1,12 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
+import Register from "./modules/users/components/register/register";
 
-import "./style.scss";
-
-const App = () => (
-  <div className="greeting">
-    <p>Hello and welcome!!</p>
-  </div>
-);
+const App = () => <Register />;
 
 render(<App />, document.getElementById("root"));
